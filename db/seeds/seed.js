@@ -12,8 +12,6 @@ export const seed = async ({ bookData, commentData }) => {
       book_owner VARCHAR (100),
       book_author VARCHAR (100),
       book_title VARCHAR (200),
-      uploaded_at BIGINT,
-      requested_at BIGINT,
       review VARCHAR (1000),
       cover_image VARCHAR (1000),
       requested BOOLEAN
