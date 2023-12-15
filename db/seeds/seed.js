@@ -24,8 +24,6 @@ export const seed = async ({ bookData, commentData }) => {
       book_owner,
       book_author,
       book_title,
-      uploaded_at,
-      requested_at,
       review,
       cover_image
     ) VALUES %L RETURNING *`,
@@ -39,8 +37,7 @@ export const seed = async ({ bookData, commentData }) => {
       uploaded_at BIGINT,
       comment VARCHAR (1000),
       book_id INT REFERENCES books (book_id),
-      requested BOOLEAN,
-      requested_at BIGINT
+      requested BOOLEAN
     )`
   );
 
