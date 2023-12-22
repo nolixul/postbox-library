@@ -1,4 +1,3 @@
-// const { dropTables, createTables } = require('../manage-tables.js');
 import { db } from '../connection.js'
 import format from 'pg-format';
 
