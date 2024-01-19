@@ -1,16 +1,16 @@
 export type Book = {
-    book_id: number;
-    book_owner: string;
-    book_author: string;
-    book_title: string;
-    review: string;
-    cover_image: string;
+  book_id: number
+  book_owner: string
+  book_author: string
+  book_title: string
+  review: string
+  cover_image: string
 }
 
 export type Comment = {
-    comment_id: number;
-    comment_owner: string;
-    uploaded_at: Date; // this might have to be changed to string
-    comment: string;
-    requested: boolean;
+  comment_id: number
+  comment_owner: string
+  uploaded_at: Date // this might have to be changed to string
+  comment: string
+  requested: boolean
 }
