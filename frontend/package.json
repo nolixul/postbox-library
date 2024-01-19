@@ -8,7 +8,8 @@
         "start": "next start",
         "lint": "eslint --ignore-path .gitignore --ext .js,.ts",
         "test": "jest",
-        "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+        "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+        "seed": "node -r dotenv/config ./scripts/seed.js"
     },
     "dependencies": {
         "next": "14.0.4",
