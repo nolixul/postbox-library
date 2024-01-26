@@ -29,6 +29,8 @@ export default function About() {
                 <p className={styles.text}>With a particular interest in front end, I am a full stack software developer. I transitioned to a career in software engineering after 10 years working in the TV industry.</p> 
                 <h3 className={styles.creator_name}>Nadia</h3>
                 <p className={styles.text}>A full stack software developer, working for a non-profit delivering software that improves educational outcomes. At the time of writing this, I’m re-platforming a website that helps people find their dream career.</p>
+                <h3 className={styles.creator_name}>Jess</h3>
+                <p className={styles.text}>An awesome full stack software developer!</p>
             </section>
     
            <section className={styles.card}>
