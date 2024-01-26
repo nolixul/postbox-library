@@ -5,12 +5,25 @@
 }
 
 .creator_name {
-    color: #f472b6;
+    color: #94a3b8;
+}
+
+.profile_photo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: right;
+    margin: 10px;
+}
+
+.profile_photo_middle {
+    float: left;
 }
 
 .subheading {
     color: #f472b6;
     margin: 10px;
+    text-align: center;
 }
 
 .text {

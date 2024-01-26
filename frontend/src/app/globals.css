@@ -8,6 +8,10 @@ html {
     font-family: var(--font-body);
   }
    
-  h1, h2, h3 {
+h1, h2, h3 {
     font-family: var(--font-heading);
-  }
+}
+
+p, li {
+    line-height: 1.6;
+}
