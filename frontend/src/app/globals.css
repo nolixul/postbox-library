@@ -6,9 +6,19 @@
 
 html {
     font-family: var(--font-body);
+    background-image: linear-gradient(to bottom right, white, thistle);
   }
    
-h1, h2, h3 {
+h1 {
+    font-family: var(--font-heading);
+    color: #f472b6;
+}
+
+h2 {
+    font-family: var(--font-heading);
+}
+
+h3 {
     font-family: var(--font-heading);
 }
 
