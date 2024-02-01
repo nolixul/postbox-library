@@ -26,7 +26,7 @@ export default function About() {
                     <li>Email notifications if someone requests a book a user has uploaded</li>
                 </ul>
            </section>
-           
+
            <section className={styles.about_the_creators_container}>
                 <h2 className={`${styles.subheading} ${styles.about_the_creators_header}`}>About the creators</h2>
                
@@ -35,22 +35,28 @@ export default function About() {
                     <p>With a particular interest in front end, I am a full stack software developer. I transitioned to a career in software engineering after 10 years working in the TV industry.</p> 
                 </div>
                 
-                <Image src={charlottePic} alt="Picture of Charlotte" className={styles.profile_photo}/>
+                <div className={styles.profile_photo_container}>
+                    <Image src={charlottePic} alt="Picture of Charlotte" className={styles.profile_photo}/>
+                </div>
 
-                <Image src={nadiaPic} alt="Picture of Nadia" className={`${styles.profile_photo} ${styles.profile_photo_nadia}`}/>
                 
                 <div className={styles.nadia_text_container}>
                     <h3 className={styles.creator_name}>Nadia</h3>
                     <p>A full stack software developer, working for a non-profit delivering software that improves educational outcomes. At the time of writing this, I’m re-platforming a website that helps people find their dream career.</p>
                 </div>
-        
+
+                <div className={styles.profile_photo_container}>
+                    <Image src={nadiaPic} alt="Picture of Nadia" className={`${styles.profile_photo} ${styles.profile_photo_nadia}`}/>
+                </div>
                 
                 <div className={styles.charlotte_text_container}>
                     <h3 className={styles.creator_name}>Jess</h3>
                     <p>An awesome full stack software developer!</p>
                 </div>
 
-                <Image src={charlottePic} alt="Picture of Jess" className={styles.profile_photo}/>
+                <div className={styles.profile_photo_container}>
+                    <Image src={charlottePic} alt="Picture of Jess" className={styles.profile_photo}/>
+                </div>
             
             </section>
     
