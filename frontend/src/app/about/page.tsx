@@ -35,7 +35,7 @@ export default function About() {
                     <p>With a particular interest in front end, I am a full stack software developer. I transitioned to a career in software engineering after 10 years working in the TV industry.</p> 
                 </div>
                 
-                <div className={styles.profile_photo_container}>
+                <div className={styles.profile_photo_charlotte_container}>
                     <Image src={charlottePic} alt="Picture of Charlotte" className={styles.profile_photo}/>
                 </div>
 
@@ -45,7 +45,7 @@ export default function About() {
                     <p>A full stack software developer, working for a non-profit delivering software that improves educational outcomes. At the time of writing this, I’m re-platforming a website that helps people find their dream career.</p>
                 </div>
 
-                <div className={styles.profile_photo_container}>
+                <div className={styles.profile_photo_nadia_container}>
                     <Image src={nadiaPic} alt="Picture of Nadia" className={`${styles.profile_photo} ${styles.profile_photo_nadia}`}/>
                 </div>
                 
@@ -54,7 +54,7 @@ export default function About() {
                     <p>An awesome full stack software developer!</p>
                 </div>
 
-                <div className={styles.profile_photo_container}>
+                <div className={styles.profile_photo_charlotte_container}>
                     <Image src={charlottePic} alt="Picture of Jess" className={styles.profile_photo}/>
                 </div>
             
