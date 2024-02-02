@@ -1,6 +1,15 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Navbar from './_components/navbar/Navbar'
+import { Space_Grotesk } from 'next/font/google'
+
+const spaceGrotesk = Space_Grotesk({
+    weight: ['700', '600', '500', '400', '300'],
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-grotesk'
+})
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,8 +24,11 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="en">
-            <body className={inter.className}>{children}</body>
+        <html lang="en" className={`${spaceGrotesk.className} ${inter.className}`}>
+            <body>
+                <Navbar />
+                {children}
+                </body>
         </html>
     )
 }
