@@ -1,0 +1,113 @@
+.title {
+    text-align: center;
+    margin: 20px;
+}
+
+.creator_name {
+    color: #94a3b8;
+}
+
+.subheading {
+    color: #f472b6;
+    margin: 10px;
+    text-align: center;
+}
+
+.profile_photo {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.profile_photo_container {
+    display: flex;
+    justify-content: center;
+}
+
+.futures_features_list {
+    padding: 10px;
+    list-style: none;
+}
+
+.futures_features_list li {
+    margin: 5px;
+}
+
+.futures_features_list ::before {
+    content: '❤️';
+    margin: 10px;
+}
+
+.section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profile_photo_charlotte_container, .profile_photo_nadia_container {
+    display: flex;
+    justify-content: center;
+}
+
+.container p, .link {
+    padding: 5px;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .about_the_creators_container{
+        display: grid;
+        width: 800px;
+        margin: auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr repeat(3, 200px);
+        row-gap: 50px;
+        align-items: center;
+    }
+    
+    .about_the_creators_header {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .charlotte_text_container {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    
+    .profile_photo_charlotte_container {
+        grid-column-start: 4;
+        grid-column-end: 5;
+    }
+
+    .profile_photo_nadia_container {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+    }
+    
+    .nadia_text_container {
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+
+    .profile_photo {
+        height: 300px;
+        width: 300px;
+    }
+
+    .nadia_text_container{
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
