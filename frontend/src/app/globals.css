@@ -103,11 +103,8 @@ a {
     text-decoration: none;
 }
 
-.navigation {
-    padding: 20px;
-    display: flex;
+ul {
     list-style: none;
-    font-family: var(--font-grotesk);
 }
 
 @media (prefers-color-scheme: dark) {

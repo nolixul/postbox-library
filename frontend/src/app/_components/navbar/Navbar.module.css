@@ -1,0 +1,31 @@
+.navigation {
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    gap: 40px;
+}
+
+.link {
+    font-weight: 500;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: hotpink;
+}
