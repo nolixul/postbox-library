@@ -1,4 +1,3 @@
-import React from 'react'
 import '../../globals.css'
 import styles from './Navbar.module.css'
 import Image from 'next/image'
