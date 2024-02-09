@@ -16,13 +16,13 @@ const Navbar: React.FC = () => {
         </Link>
       </div>
       <nav className={styles.nav_links}>
-        <Link className={styles.link} href="">
+        <Link className={styles.link} href="/home">
           <h1>Home</h1>
         </Link>
-        <Link className={styles.link} href="">
+        <Link className={styles.link} href="/bookshelf">
           <h1>Our Bookshelf</h1>
         </Link>
-        <Link className={styles.link} href="">
+        <Link className={styles.link} href="/addbook">
           <h1>Add A Book</h1>
         </Link>
         <Link className={styles.link} href="/about">
