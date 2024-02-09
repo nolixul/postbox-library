@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import charlottePic from './profile-photos/charlotte.png'
 import nadiaPic from './profile-photos/nadia.jpeg'
+import jessPic from './profile-photos/jess.png'
 
 export default function About() {
     return(
@@ -51,11 +52,11 @@ export default function About() {
                 
                 <div className={styles.charlotte_text_container}>
                     <h3 className={styles.creator_name}>Jess</h3>
-                    <p>An awesome full stack software developer!</p>
+                    <p>A full-stack software developer, with a passion for frontend, working for a non-profit to prevent degree fraud.</p>
                 </div>
 
                 <div className={styles.profile_photo_charlotte_container}>
-                    <Image src={charlottePic} alt="Picture of Jess" className={styles.profile_photo}/>
+                    <Image src={jessPic} alt="Picture of Jess" className={styles.profile_photo}/>
                 </div>
             
             </section>
