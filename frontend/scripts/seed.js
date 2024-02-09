@@ -67,7 +67,7 @@ async function seedComments(client) {
       commentData,
     )
 
-    console.log(`Seeded ${insertedComments.length} books`)
+    console.log(`Seeded ${insertedComments.length} comments`)
 
     return {
       createTable,
