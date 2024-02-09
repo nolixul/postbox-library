@@ -2,8 +2,6 @@ import { db } from '@vercel/postgres'
 import format from 'pg-format'
 import { bookData, commentData } from '../lib/placeholder-data.js'
 
-// export const seed = async (client) => {
-
 async function seedBooks(client) {
   try {
     // Create the books table if it doesn't exist
