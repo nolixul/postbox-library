@@ -56,8 +56,7 @@ async function seedComments(client) {
     )`
     console.log('Created comments table')
 
-    const alterBooks = await client.sql
-      `ALTER TABLE books 
+    const alterBooks = await client.sql`ALTER TABLE books 
      ADD COLUMN requested_by VARCHAR (100)`
 
     const insertedComments = format(
