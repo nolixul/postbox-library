@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import charlottePic from './profile-photos/charlotte.png'
 import nadiaPic from './profile-photos/nadia.jpeg'
-import jessPic from './profile-photos/jess.png'
+import jessPic from './profile-photos/jess.jpg'
 
 export default function About() {
     return(
