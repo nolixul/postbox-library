@@ -17,16 +17,16 @@ const Navbar: React.FC = () => {
       </div>
       <nav className={styles.nav_links}>
         <Link className={styles.link} href="">
-          <h2>Home</h2>
+          <h1>Home</h1>
         </Link>
         <Link className={styles.link} href="">
-          <h2>Our Bookshelf</h2>
+          <h1>Our Bookshelf</h1>
         </Link>
         <Link className={styles.link} href="">
-          <h2>Add A Book</h2>
+          <h1>Add A Book</h1>
         </Link>
         <Link className={styles.link} href="/about">
-          <h2>About</h2>
+          <h1>About</h1>
         </Link>
       </nav>
     </header>

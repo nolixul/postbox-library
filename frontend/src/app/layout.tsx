@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${asap.variable} ${spaceGrotesk.className}`}
+      className={`${montserrat.variable} ${asap.variable} ${spaceGrotesk.variable}`}
     >
       <body className={montserrat.className}>
         <Navbar />

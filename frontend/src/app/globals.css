@@ -10,8 +10,7 @@ html {
   }
    
 h1 {
-    font-family: var(--font-heading);
-    color: #f472b6;
+    font-family: var(--font-grotesk);
 }
 
 h2 {

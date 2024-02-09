@@ -29,5 +29,5 @@
 .link:hover {
     cursor: pointer;
     color: hotpink;
-    font-weight: bold;
+    font-weight: 700;
 }
