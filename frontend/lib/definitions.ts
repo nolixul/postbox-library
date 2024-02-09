@@ -4,7 +4,7 @@ export type Book = {
   book_author: string
   book_title: string
   review: string
-  cover_image: string
+  cover_image_url: string
   requested: boolean
 }
 
