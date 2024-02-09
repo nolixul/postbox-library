@@ -33,6 +33,5 @@ const Navbar: React.FC = () => {
     </header>
   )
 }
-// can't get the image to show up
-// working on getting styling to work
+
 export default Navbar
