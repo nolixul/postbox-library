@@ -5,6 +5,7 @@ export type Book = {
   book_title: string
   review: string
   cover_image: string
+  requested: boolean
 }
 
 export type Comment = {
@@ -12,5 +13,4 @@ export type Comment = {
   comment_owner: string
   uploaded_at: Date // this might have to be changed to string
   comment: string
-  requested: boolean
 }
