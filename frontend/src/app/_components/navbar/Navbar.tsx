@@ -4,7 +4,7 @@ import Image from 'next/image'
 import logo from './../../../../public/logo.png'
 import Link from 'next/link'
 
-const Navbar: React.FC = () => {
+const Navbar = () => {
   return (
     <header className={styles.navigation}>
       <div className={styles.container}>
