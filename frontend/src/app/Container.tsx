@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './container.module.css'
 
 interface ContainerProps {
     children: React.ReactNode
@@ -7,9 +8,7 @@ interface ContainerProps {
 
 const Container = ({ children, className }: ContainerProps) => {
     return (
-        <article className={`max-w-screen-md mx-auto ${className}`}>
-            {children}
-        </article>
+        <article className={`${styles.main} ${className}`}>{children}</article>
     )
 }
 
