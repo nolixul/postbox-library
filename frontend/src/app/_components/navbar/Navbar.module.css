@@ -1,0 +1,48 @@
+.navigation {
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    gap: 40px;
+}
+
+.link {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.link:visited {
+    color: black;
+}
+
+.active_link {
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: solid;
+    border-bottom-width: 2px;
+    margin-bottom: -2px;
+    border-bottom-color: black;
+}
+
+.link:hover {
+    color: hotpink;
+    font-weight: 700;
+}
+
