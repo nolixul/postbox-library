@@ -10,7 +10,7 @@ export default function FutureFunctionality () {
           </p>
           <p>Including the following features:</p>
           <ul className={styles.futures_features_list}>
-            <li>Users can log in</li>
+            <li>Add authentication and user profile</li>
             <li>
               Users can view books they’ve uploaded and also those they’ve
               requested
