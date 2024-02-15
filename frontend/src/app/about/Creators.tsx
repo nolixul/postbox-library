@@ -24,7 +24,7 @@ export default function Creators () {
           <div className={styles.profile_photo_container}>
             <Image
               src={charlottePic}
-              alt="Picture of Charlotte"
+              alt="Charlotte"
               className={styles.profile_photo}
             />
           </div>
@@ -40,7 +40,7 @@ export default function Creators () {
           </div>
 
           <div className={styles.middle_profile_photo_container}>
-                    <Image src={nadiaPic} alt="Picture of Nadia" className={`${styles.profile_photo} ${styles.profile_photo_nadia}`}/>
+                    <Image src={nadiaPic} alt="Nadia" className={`${styles.profile_photo} ${styles.profile_photo_nadia}`}/>
           </div>
                 
           <div className={styles.creator_text_container}>
@@ -49,7 +49,7 @@ export default function Creators () {
           </div>
 
           <div className={styles.profile_photo_container}>
-            <Image src={jessPic} alt="Picture of Jess" className={styles.profile_photo}/>
+            <Image src={jessPic} alt="Jess" className={styles.profile_photo}/>
           </div>
           
           </section>
