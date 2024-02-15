@@ -20,8 +20,8 @@
 }
 
 .profile_photo {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -105,15 +105,11 @@
     }
 
     .profile_photo {
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 
     .nadia_text_container{
         margin-left: 20px;
     }
-}
-
-@media (min-width: 992px) {
-
 }
