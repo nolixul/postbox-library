@@ -29,13 +29,12 @@
 }
 
 .link:visited {
-    color: inherit;
+    color: black;
 }
 
 .active_link {
     font-weight: 500;
     text-decoration: none;
-    color: inherit;
     border-bottom: solid;
     border-bottom-width: 2px;
     margin-bottom: -2px;

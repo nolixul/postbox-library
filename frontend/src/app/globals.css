@@ -7,7 +7,7 @@
 html {
     font-family: var(--font-body);
     background-image: linear-gradient(to bottom right, white, thistle);
-  }
+  } 
    
 h1 {
     font-family: var(--font-grotesk);
