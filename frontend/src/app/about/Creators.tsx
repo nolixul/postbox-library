@@ -12,7 +12,7 @@ export default function Creators () {
             About the creators
           </h2>
 
-          <div className={styles.charlotte_text_container}>
+          <div className={styles.creator_text_container}>
             <h3 className={styles.creator_name}>Charlotte</h3>
             <p>
               With a particular interest in front end, I am a full stack
@@ -21,7 +21,7 @@ export default function Creators () {
             </p>
           </div>
 
-          <div className={styles.profile_photo_charlotte_container}>
+          <div className={styles.profile_photo_container}>
             <Image
               src={charlottePic}
               alt="Picture of Charlotte"
@@ -29,7 +29,7 @@ export default function Creators () {
             />
           </div>
 
-          <div className={styles.nadia_text_container}>
+          <div className={styles.middle_creator_text_container}>
             <h3 className={styles.creator_name}>Nadia</h3>
             <p>
               A full stack software developer, working for a non-profit
@@ -39,16 +39,16 @@ export default function Creators () {
             </p>
           </div>
 
-          <div className={styles.profile_photo_nadia_container}>
+          <div className={styles.middle_profile_photo_container}>
                     <Image src={nadiaPic} alt="Picture of Nadia" className={`${styles.profile_photo} ${styles.profile_photo_nadia}`}/>
           </div>
                 
-          <div className={styles.charlotte_text_container}>
+          <div className={styles.creator_text_container}>
             <h3 className={styles.creator_name}>Jess</h3>
             <p>A full-stack software developer, with a passion for frontend, working for a non-profit to prevent degree fraud.</p>
           </div>
 
-          <div className={styles.profile_photo_charlotte_container}>
+          <div className={styles.profile_photo_container}>
             <Image src={jessPic} alt="Picture of Jess" className={styles.profile_photo}/>
           </div>
           
