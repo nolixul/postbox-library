@@ -1,10 +1,7 @@
 import styles from './page.module.css'
-import Image from 'next/image'
 import Link from 'next/link'
-import charlottePic from './profile-photos/charlotte.png'
-import nadiaPic from './profile-photos/nadia.jpeg'
-import jessPic from './profile-photos/jess.jpg'
 import FutureFunctionality from './FutureFunctionality'
+import Creators from './Creators'
 
 export default function About() {
   return (
@@ -30,54 +27,8 @@ export default function About() {
 
         <FutureFunctionality/>
 
-        <section className={styles.about_the_creators_container}>
-          <h2
-            className={`${styles.subheading} ${styles.about_the_creators_header}`}
-          >
-            About the creators
-          </h2>
+        <Creators/>
 
-          <div className={styles.charlotte_text_container}>
-            <h3 className={styles.creator_name}>Charlotte</h3>
-            <p>
-              With a particular interest in front end, I am a full stack
-              software developer. I transitioned to a career in software
-              engineering after 10 years working in the TV industry.
-            </p>
-          </div>
-
-          <div className={styles.profile_photo_charlotte_container}>
-            <Image
-              src={charlottePic}
-              alt="Picture of Charlotte"
-              className={styles.profile_photo}
-            />
-          </div>
-
-          <div className={styles.nadia_text_container}>
-            <h3 className={styles.creator_name}>Nadia</h3>
-            <p>
-              A full stack software developer, working for a non-profit
-              delivering software that improves educational outcomes. At the
-              time of writing this, I’m re-platforming a website that helps
-              people find their dream career.
-            </p>
-          </div>
-
-                <div className={styles.profile_photo_nadia_container}>
-                    <Image src={nadiaPic} alt="Picture of Nadia" className={`${styles.profile_photo} ${styles.profile_photo_nadia}`}/>
-                </div>
-                
-                <div className={styles.charlotte_text_container}>
-                    <h3 className={styles.creator_name}>Jess</h3>
-                    <p>A full-stack software developer, with a passion for frontend, working for a non-profit to prevent degree fraud.</p>
-                </div>
-
-                <div className={styles.profile_photo_charlotte_container}>
-                    <Image src={jessPic} alt="Picture of Jess" className={styles.profile_photo}/>
-                </div>
-            
-            </section>
     
            <section className={styles.section}>
                 <h2 className={styles.subheading}>Get in touch</h2>
