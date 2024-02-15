@@ -3,7 +3,6 @@ import styles from './page.module.css'
 export default function ProjectInfo () {
     return (
         <section className={styles.section}>
-          <h2 className={styles.subheading}>About the project</h2>
           <p>
             Postbox library was inspired by our love of books. The aim of the
             website is to make it easy to share books with your friends. Users
