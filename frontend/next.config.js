@@ -1,7 +1,7 @@
-import pkg from 'next';
-const { NextConfig } = pkg;
+import pkg from 'next'
+const { NextConfig } = pkg
 
 /** @type {NextConfig} */
-const nextConfig = {};
+const nextConfig = {}
 
-export default nextConfig;
+export default nextConfig
