@@ -1,17 +1,11 @@
-import React from 'react'
-import styles from './container.module.css'
+import './globals.css'
 
 interface ContainerProps {
     children: React.ReactNode
-    className?: string
 }
 
-const Container = ({ children, className }: ContainerProps) => {
-    return (
-        <article className={`${styles.container} ${className}`}>
-            {children}
-        </article>
-    )
+const Container = ({ children }: ContainerProps) => {
+    return <article className="container">{children}</article>
 }
 
 export default Container
