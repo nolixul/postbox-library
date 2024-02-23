@@ -1,18 +1,3 @@
-.navigation {
-    padding: 20px 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    gap: 20px;
-}
-
 .nav_links {
     display: flex;
     align-items: center;
@@ -46,25 +31,25 @@
     font-weight: 700;
 }
 
-.nav_icon {
-    display: none;
-    border-radius: 25%;
-  }
-
 @media screen and (max-width: 1024px) {
-    .nav_menu_container {
-        display: flex;
+
+    .nav_links {
+        position: absolute;
         flex-direction: column;
+        gap: 10px;
+        margin-top: 50px;
+        margin-left: -155px;
+        align-items: end;
+        background: pink;
+        border-style: solid;
+        border-radius: 10px;
+        padding: 10px;
+        border-color: pink;
+        border-width: medium;
     }
 
-    .nav_icon {
-        display: block;
-        align-self: end;
-    }
-      
-    .nav_icon:hover {
-        cursor: pointer;
-        background-color: pink;
+    .nav_links_hidden {
+        display: none;
     }
     
 }
