@@ -1,4 +1,4 @@
-.nav_links {
+.nav_links_hamburger {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 1024px) {
 
-    .nav_links {
+    .nav_links_hamburger {
         position: absolute;
         flex-direction: column;
         gap: 10px;
@@ -48,7 +48,7 @@
         border-width: medium;
     }
 
-    .nav_links_hidden {
+    .nav_links_hamburger_hidden {
         display: none;
     }
     

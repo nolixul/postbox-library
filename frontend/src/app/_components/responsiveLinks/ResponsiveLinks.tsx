@@ -12,7 +12,7 @@ const ResponsiveLinks = ({ isNavVisible, toggleNav }: ResponsiveLinksProps) => {
 
   return (
     <nav
-      className={`${styles.nav_links} ${isNavVisible ? '' : styles.nav_links_hidden}`}
+      className={`${styles.nav_links_hamburger} ${isNavVisible ? '' : styles.nav_links_hamburger_hidden}`}
     >
       <Link
         onClick={toggleNav}
