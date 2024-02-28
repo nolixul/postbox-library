@@ -14,23 +14,23 @@ const Navbar = () => {
   const toggleNav = () => {
     setIsNavVisible(val => !val)
   }
-  
+
   return (
     <header className={styles.navigation}>
       <div className={styles.outer_container}>
-      <div className={styles.container}>
-        <Link href="/">
-          <Image src={logo} alt="Postbox Library" width={50} height={50} />
-        </Link>
-        <Link className={styles.link} href="/">
-          <h1>Postbox Library</h1>
-        </Link>
-      </div>
-      <div className={styles.hamburger_container} onClick={toggleNav}>
+        <div className={styles.container}>
+          <Link href="/">
+            <Image src={logo} alt="Postbox Library" width={50} height={50} />
+          </Link>
+          <Link className={styles.link} href="/">
+            <h1>Postbox Library</h1>
+          </Link>
+        </div>
+        <div className={styles.hamburger_container} onClick={toggleNav}>
           <Image src={menuIcon} alt="Menu" width={35} height={35} />
         </div>
       </div>
-        <ResponsiveLinks isNavVisible={isNavVisible} toggleNav={toggleNav} />
+      <ResponsiveLinks isNavVisible={isNavVisible} toggleNav={toggleNav} />
     </header>
   )
 }
