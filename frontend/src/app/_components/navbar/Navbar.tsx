@@ -26,7 +26,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={styles.nav_menu_container}>
-        <div className={styles.nav_icon} onClick={toggleNav}>
+        <div className={styles.hamburger_container} onClick={toggleNav}>
           <Image src={menuIcon} alt="Menu" width={35} height={35} />
         </div>
         <ResponsiveLinks isNavVisible={isNavVisible} toggleNav={toggleNav} />

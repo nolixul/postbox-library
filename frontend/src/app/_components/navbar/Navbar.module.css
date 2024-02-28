@@ -46,7 +46,7 @@
     font-weight: 700;
 }
 
-.nav_icon {
+.hamburger_container {
     display: none;
     border-radius: 25%;
   }
@@ -57,12 +57,12 @@
         flex-direction: column;
     }
 
-    .nav_icon {
+    .hamburger_container {
         display: block;
         align-self: end;
     }
       
-    .nav_icon:hover {
+    .hamburger_container:hover {
         cursor: pointer;
         background-color: pink;
     }
