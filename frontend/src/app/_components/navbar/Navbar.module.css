@@ -6,6 +6,12 @@
     gap: 20px;
 }
 
+.outer_container {
+    display: flex;
+    width: auto;
+    gap: 20px;
+}
+
 .container {
     display: flex;
     align-items: center;
@@ -41,12 +47,15 @@
 .hamburger_container {
     display: none;
     border-radius: 25%;
+    margin-bottom: 3px;
   }
 
 @media screen and (max-width: 1024px) {
-    .nav_menu_container {
-        display: flex;
+
+    .navigation {
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .hamburger_container {

@@ -34,18 +34,12 @@
 @media screen and (max-width: 1024px) {
 
     .nav_links_hamburger {
-        position: absolute;
         flex-direction: column;
         gap: 10px;
-        margin-top: 50px;
-        margin-left: -155px;
-        align-items: end;
+        align-items: start;
         background: pink;
-        border-style: solid;
-        border-radius: 10px;
-        padding: 10px;
-        border-color: pink;
-        border-width: medium;
+        padding: 25px 10px 25px 35px;
+        width: 100%;
     }
 
     .nav_links_hamburger_hidden {
