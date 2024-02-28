@@ -1,3 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    gap: 40px;
+}
+
+.xicon_container {
+    display: none;
+}
+
 .nav_links_hamburger {
     display: flex;
     align-items: center;
@@ -33,12 +45,20 @@
 
 @media screen and (max-width: 1024px) {
 
+    .container {
+        gap: 10px;
+        align-items: start;
+        background: pink;
+        padding: 25px 25px 25px 35px;
+        width: 100%;
+    }
+
     .nav_links_hamburger {
+        display: flex;
         flex-direction: column;
         gap: 10px;
         align-items: start;
         background: pink;
-        padding: 25px 10px 25px 35px;
         width: 100%;
     }
 
