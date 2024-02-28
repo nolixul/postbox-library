@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import styles from './ResponsiveLinks.module.css'
 import Image from 'next/image'
-import xIcon from '../../../../public/x-icon.svg'
+import xIcon from './../../../../public/x-icon.svg'
 
 interface ResponsiveLinksProps {
   isNavVisible: boolean
