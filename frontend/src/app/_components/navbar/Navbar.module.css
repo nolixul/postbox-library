@@ -8,7 +8,6 @@
 
 .container {
     display: flex;
-    width: 100%;
     gap: 20px;
 }
 
@@ -54,18 +53,27 @@
 
     .navigation {
         flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .hamburger_container {
         display: block;
         align-self: end;
+        margin-right: 20px;
     }
       
     .hamburger_container:hover {
         cursor: pointer;
         background-color: pink;
+    }
+
+    .logo_and_company_name_container {
+        padding-left: 20px;
+    }
+
+    .container {
+        width: 100%;
     }
     
 }
