@@ -9,16 +9,16 @@ import { useState } from 'react'
 import ResponsiveLinks from '../responsiveLinks/ResponsiveLinks'
 
 const Navbar = () => {
-  const [isNavVisible, setIsNavVisible] = useState(false)
+  const [isHamburgerNavVisible, setisHamburgerNavVisible] = useState(false)
 
   const toggleNav = () => {
-    setIsNavVisible(val => !val)
+    setisHamburgerNavVisible(val => !val)
   }
 
   return (
     <header className={styles.navigation}>
-      <div className={styles.outer_container}>
-        <div className={styles.container}>
+      <div className={styles.container}>
+        <div className={styles.logo_and_company_name_container}>
           <Link href="/">
             <Image src={logo} alt="Postbox Library" width={50} height={50} />
           </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
           <Image src={menuIcon} alt="Menu" width={35} height={35} />
         </div>
       </div>
-      <ResponsiveLinks isNavVisible={isNavVisible} toggleNav={toggleNav} />
+      <ResponsiveLinks isHamburgerNavVisible={isHamburgerNavVisible} toggleNav={toggleNav} />
     </header>
   )
 }

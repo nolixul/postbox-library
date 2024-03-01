@@ -6,13 +6,13 @@
     gap: 20px;
 }
 
-.outer_container {
+.container {
     display: flex;
     width: auto;
     gap: 20px;
 }
 
-.container {
+.logo_and_company_name_container {
     display: flex;
     align-items: center;
     flex-grow: 1;
