@@ -6,7 +6,7 @@ import logo from './../../../../public/logo.png'
 import menuIcon from './../../../../public/burger-menu.svg'
 import Link from 'next/link'
 import { useState } from 'react'
-import ResponsiveLinks from '../responsiveLinks/ResponsiveLinks'
+import HamburgerNavLinks from '../hamburgerNavLinks/HamburgerNavLinks'
 
 const Navbar = () => {
   const [isHamburgerNavVisible, setisHamburgerNavVisible] = useState(false)
@@ -30,7 +30,7 @@ const Navbar = () => {
           <Image src={menuIcon} alt="Menu" width={35} height={35} />
         </div>
       </div>
-      <ResponsiveLinks isHamburgerNavVisible={isHamburgerNavVisible} toggleNav={toggleNav} />
+      <HamburgerNavLinks isHamburgerNavVisible={isHamburgerNavVisible} toggleNav={toggleNav} />
     </header>
   )
 }

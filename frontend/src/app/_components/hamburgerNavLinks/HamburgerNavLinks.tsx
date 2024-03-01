@@ -1,15 +1,15 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import styles from './ResponsiveLinks.module.css'
+import styles from './HamburgerNavLinks.module.css'
 import Image from 'next/image'
 import xIcon from './../../../../public/x-icon.svg'
 
-interface ResponsiveLinksProps {
+interface HamburgerNavLinksProps {
   isHamburgerNavVisible: boolean
   toggleNav: () => void
 }
 
-const ResponsiveLinks = ({ isHamburgerNavVisible, toggleNav }: ResponsiveLinksProps) => {
+const HamburgerNavLinks = ({ isHamburgerNavVisible, toggleNav }: HamburgerNavLinksProps) => {
   const path = usePathname()
 
   return (
@@ -56,4 +56,4 @@ const ResponsiveLinks = ({ isHamburgerNavVisible, toggleNav }: ResponsiveLinksPr
   )
 }
 
-export default ResponsiveLinks
+export default HamburgerNavLinks
