@@ -1,25 +1,19 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import { Space_Grotesk } from 'next/font/google'
-import { Montserrat, Asap } from 'next/font/google'
+import { Space_Grotesk, Questrial } from 'next/font/google'
 import Navbar from './_components/navbar/Navbar'
 
 const spaceGrotesk = Space_Grotesk({
   weight: ['700', '600', '500', '400', '300'],
   subsets: ['latin'],
-  variable: '--font-grotesk',
+  variable: '--font-heading',
   display: 'swap',
 })
 
-const montserrat = Montserrat({
+const questrial = Questrial({
+  weight: ['400'],
   subsets: ['latin'],
   variable: '--font-body',
-  display: 'swap',
-})
-
-const asap = Asap({
-  subsets: ['latin'],
-  variable: '--font-heading',
   display: 'swap',
 })
 
@@ -36,9 +30,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${montserrat.variable} ${asap.variable} ${spaceGrotesk.variable}`}
+      className={`${questrial.variable} ${spaceGrotesk.variable}`}
     >
-      <body className={montserrat.className}>
+      <body className={questrial.className}>
         <Navbar />
         {children}
       </body>
