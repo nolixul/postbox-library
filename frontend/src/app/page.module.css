@@ -6,8 +6,6 @@
 
 .container2 {
     display: flex;
-}
-
-.content {
-    
+    justify-content: space-between;
+    margin: 50px;
 }
