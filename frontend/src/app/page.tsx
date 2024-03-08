@@ -6,7 +6,6 @@ import peopleReading from './_homePageImages/people_reading.jpg'
 export default function Home() {
   return (
     <section className={styles.container}>
-    <section className={styles.container2}>
       <section className={styles.text_container}>
         <h2 className={styles.title}>Welcome to Postbox Library</h2>
         <p className={styles.topic_sentence}>A place to share books with friends.</p>
@@ -25,7 +24,6 @@ export default function Home() {
           height={300}
           />
       </div>
-    </section>
     </section>
   )
 }
