@@ -12,6 +12,19 @@
 
 .text_container {
     margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 8px;
+}
+
+.text_container h2 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.links_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 @media (min-width: 768px) {
