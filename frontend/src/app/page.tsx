@@ -9,7 +9,7 @@ export default function Home() {
     <section className={styles.container2}>
       <section className={styles.text_container}>
         <h2 className={styles.title}>Welcome to Postbox Library</h2>
-        <p>A place to share books with friends.</p>
+        <p className={styles.topic_sentence}>A place to share books with friends.</p>
         <p>If you've got a book you want to share - add a book to the bookshelf.</p>
         <p>If you're looking for a book to read, browse the bookshelf and request a book.</p>
         <p>Let's share the love of reading!</p>
