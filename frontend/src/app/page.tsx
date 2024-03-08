@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <section className={styles.container}>
     <section className={styles.container2}>
-      <section className={styles.content}>
+      <section className={styles.text_container}>
         <h1 className={styles.title}>Welcome to Postbox Library</h1>
         <p>A place to share books with friends.</p>
         <p>If you've got a book you want to share - add a book to the bookshelf.</p>
