@@ -22,7 +22,7 @@ export default function Home() {
         <Image
           src={peopleReading}
           alt=""
-          height={400}
+          height={300}
           />
       </div>
     </section>
