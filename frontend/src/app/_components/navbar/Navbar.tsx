@@ -30,7 +30,10 @@ const Navbar = () => {
           <Image src={menuIcon} alt="Menu" width={35} height={35} />
         </div>
       </div>
-      <HamburgerNavLinks isHamburgerNavVisible={isHamburgerNavVisible} toggleNav={toggleNav} />
+      <HamburgerNavLinks
+        isHamburgerNavVisible={isHamburgerNavVisible}
+        toggleNav={toggleNav}
+      />
     </header>
   )
 }

@@ -9,13 +9,18 @@ interface HamburgerNavLinksProps {
   toggleNav: () => void
 }
 
-const HamburgerNavLinks = ({ isHamburgerNavVisible, toggleNav }: HamburgerNavLinksProps) => {
+const HamburgerNavLinks = ({
+  isHamburgerNavVisible,
+  toggleNav,
+}: HamburgerNavLinksProps) => {
   const path = usePathname()
 
   return (
     <div className={isHamburgerNavVisible ? styles.container : ''}>
       <nav
-        className={`${styles.nav_links_hamburger} ${isHamburgerNavVisible ? '' : styles.nav_links_hamburger_hidden}`}
+        className={`${styles.nav_links_hamburger} ${
+          isHamburgerNavVisible ? '' : styles.nav_links_hamburger_hidden
+        }`}
       >
         <Link
           onClick={toggleNav}
@@ -26,21 +31,27 @@ const HamburgerNavLinks = ({ isHamburgerNavVisible, toggleNav }: HamburgerNavLin
         </Link>
         <Link
           onClick={toggleNav}
-          className={`${path === '/ourbookshelf' ? styles.active_link : ''} ${styles.link}`}
+          className={`${path === '/ourbookshelf' ? styles.active_link : ''} ${
+            styles.link
+          }`}
           href="/ourbookshelf"
         >
           <h1>Our Bookshelf</h1>
         </Link>
         <Link
           onClick={toggleNav}
-          className={`${path === '/addabook' ? styles.active_link : ''} ${styles.link}`}
+          className={`${path === '/addabook' ? styles.active_link : ''} ${
+            styles.link
+          }`}
           href="/addabook"
         >
           <h1>Add A Book</h1>
         </Link>
         <Link
           onClick={toggleNav}
-          className={`${path === '/about' ? styles.active_link : ''} ${styles.link}`}
+          className={`${path === '/about' ? styles.active_link : ''} ${
+            styles.link
+          }`}
           href="/about"
         >
           <h1>About</h1>

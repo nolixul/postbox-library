@@ -6,14 +6,14 @@ import GetInTouch from './GetInTouch'
 
 export default function About() {
   return (
-      <>
-        <h1 className={styles.title}>Postbox Library</h1>
-        <main className={styles.container}>
-          <ProjectInfo/>
-          <FutureFunctionality/>
-          <Creators/>
-          <GetInTouch/>
-        </main>
-      </>
+    <>
+      <h1 className={styles.title}>Postbox Library</h1>
+      <main className={styles.container}>
+        <ProjectInfo />
+        <FutureFunctionality />
+        <Creators />
+        <GetInTouch />
+      </main>
+    </>
   )
 }
