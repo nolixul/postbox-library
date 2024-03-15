@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -13,6 +13,7 @@ h1, h2 {
     font-family: var(--font-heading);
 }
 
-p, li {
-    line-height: 1.6;
+p,
+li {
+  line-height: 1.6;
 }

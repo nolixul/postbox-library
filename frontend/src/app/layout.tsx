@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Space_Grotesk, Questrial } from 'next/font/google'
 import Navbar from './_components/navbar/Navbar'
+import Container from './Container'
 
 const spaceGrotesk = Space_Grotesk({
   weight: ['700', '600', '500', '400', '300'],
@@ -34,7 +35,7 @@ export default function RootLayout({
     >
       <body className={questrial.className}>
         <Navbar />
-        {children}
+        <Container>{children}</Container>
       </body>
     </html>
   )
