@@ -8,17 +8,14 @@
 
 .container {
     display: flex;
-    align-items: center;
-    flex-grow: 1;
     gap: 20px;
 }
 
-.nav_links {
+.logo_and_company_name_container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    font-size: 16px;
-    gap: 40px;
+    flex-grow: 1;
+    gap: 20px;
 }
 
 .link {
@@ -46,3 +43,37 @@
     font-weight: 700;
 }
 
+.hamburger_container {
+    display: none;
+    border-radius: 25%;
+    margin-bottom: 3px;
+  }
+
+@media screen and (max-width: 1024px) {
+
+    .navigation {
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .hamburger_container {
+        display: block;
+        align-self: end;
+        margin-right: 20px;
+    }
+      
+    .hamburger_container:hover {
+        cursor: pointer;
+        background-color: pink;
+    }
+
+    .logo_and_company_name_container {
+        padding-left: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+    
+}

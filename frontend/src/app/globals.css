@@ -5,20 +5,12 @@
 }
 
 html {
-  font-family: var(--font-body);
-  background-image: linear-gradient(to bottom right, white, thistle);
-}
-
-h1 {
-  font-family: var(--font-grotesk);
-}
-
-h2 {
-  font-family: var(--font-heading);
-}
-
-h3 {
-  font-family: var(--font-heading);
+    font-family: var(--font-body);
+    background-image: linear-gradient(to bottom right, white, thistle);
+  } 
+   
+h1, h2 {
+    font-family: var(--font-heading);
 }
 
 p,
