@@ -1,32 +1,27 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    font-family: var(--font-body);
-    background-image: linear-gradient(to bottom right, white, thistle);
-  } 
-   
+  font-family: var(--font-body);
+  background-image: linear-gradient(to bottom right, white, thistle);
+}
+
 h1 {
-    font-family: var(--font-grotesk);
+  font-family: var(--font-grotesk);
 }
 
 h2 {
-    font-family: var(--font-heading);
+  font-family: var(--font-heading);
 }
 
 h3 {
-    font-family: var(--font-heading);
+  font-family: var(--font-heading);
 }
 
-p, li {
-    line-height: 1.6;
-}
-
-.container {
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
+p,
+li {
+  line-height: 1.6;
 }
